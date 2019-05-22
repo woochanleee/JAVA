@@ -1,7 +1,7 @@
-public class MethodDemo3 {
+public class MethodDemo4 {
 
-    public static void numbering(int limit) {
-        int i = 0;
+    public static void numbering(int init, int limit) {
+        int i = init;
         while (i < limit) {
             System.out.println(i);
             i++;
@@ -9,6 +9,6 @@ public class MethodDemo3 {
     }
 
     public static void main(String[] args) {
-        numbering(5 );
+        numbering(3, 5 );
     }
 }
